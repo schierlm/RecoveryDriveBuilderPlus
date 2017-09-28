@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="label1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>This wizard helps you to create or update a recovery drive with one or multiple Windows Recovery Environments. It will not format the drive or make it bootable; therefore you will need a USB key that is already bootable, either with the Windows bootloader (for example created by RecoveryDrive.exe or the Windows 10 Media Creation Tool) or another bootloader that can chainload the Windows Bootloader in \Boot\BootMgr and/or \Efi\Microsoft\Bootx64.efi.
+
+You will have the option to replace the bootloader files with latest files from either a Windows 10 installation or a Windows 10 install media, or to add one or multiple new recovery environments to the boot menu.
+
+Attach your USB key and select it below:</value>
+  </data>
+  <metadata name="label2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Choose where to take the recovery drive image from. Note that when you are taking it from this Windows installation, it may include slipstreamed drivers for this device, which may cause trouble in case you want to boot a different device from it. To generate a generic recovery drive, use an installation media as the source.</value>
+  </data>
+  <metadata name="label3.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="label7.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="actionNewBootloader.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sourceISOImage.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sourceInstallWimEsd.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sourceWindowsInstallation.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="selectWIMDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="selectISODialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEACACoCAAAJgAAABAQAAABAAgAaAUAAM4IAAAoAAAAIAAAAEAAAAABAAgAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAADgcAABAIAQAEBw0AGAwBAAMLFAAcDwIAIhIDAA0SHAApFwUAHhcQADMb
+        AwATFx0AMxsFAAUJVAAvHAgAOR0EACQbEgA1HgYAOCAGAAgVPwA+IQUAMR8RAD0hCQBDIgUARiQFADQj
+        EgBIJgYAGSAsAEkmCABHJgkASigGAEYpCQBJKQgAKyUgAEMpDABMKgcATCoLADcoGwAjJSwALygeACIp
+        IQBOKwwASSwNAEcsDgA0KSAASywQAFAtDgAVJjoAHSc1AD0sGgBMLhAACCVHAAoRiwBHLxMACSZIAEYw
+        FABOMQ4ANi8iAFUxEQBIMRYAHio8AEsyEwAVKkEAUDIUAD4xIQBYNBMANTEpAFA1FABXNBUASDQbACcw
+        NgBaNhUAQDYiADg0MABdOBYAXzoYAAAA/wBEOiUAWTseAGI8GgBTPCAAHDNRABczVgBkPhsAHTVSAGU+
+        HABFOzIAXEAaAB02VABNPikAZ0AdAGlCHgBKQDEAO0A4AF1DJABiRCIAYkUfAE5CMQBLQTgAITxZAFhG
+        JwBkRiQAbUYhAGhHIgBEQkAAaUgiAFVGMQBuSSMAZ0kmAHBJIwBxSSQATkc8AHRLJgB0TCYAUEhAACJE
+        ZQB3TigAOUtKAFJLRQBvUCsAHEZrAEFPQgBwUSwAKEhlAHtSKgAzTlIAJkpsADlRTgBjUzoAfFYrAHdY
+        KwAoUWQAUVJUADBTXQCCWS4AHk16AF1WSwCCXDEAhVwwACNRewAzV2IAJFhyAChWfgAtXGwAOF9gAChW
+        hQAlWIMAE1yDAGBgYAApW4UAZ2JaADZjawAlXIkAf2k/AGRiYAAwXYQAYGNmAGBkaQAdY4kAOGltAJZw
+        OgCaczwAYWlzAClnmgCbeEAAnXlBAHBwcAB3cmkAoXpBAFl0bwA4d34Ae3h1ADN6iAAheqEAPnimALGK
+        TAC1jk4AHoGvAGKHigC5kVAAJYapABmEuQBNiJwAK4ayAL6VUwC0lFoAv5dUAMCXVAC1llwADIjMAJWY
+        dQA8krIAD47QABKV1QCPoYMAYp2hADKavwApm8AAFJjXACucyQAjnckAFp3aABmj3QAapd8APq7NAB+v
+        5gAgsucAILPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0KdZUGxlZWVfRYjQ0NDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0Fx3hm5rZltaU09LSmdh0NDQ0NDQ0NDQ0NDQ0NDQ0JZ6fHBua2ZbW1VPS0pHQTo70NDQ0NDQ
+        0NDQ0NDQ0NBviXRxbm1ma2s/LSotREE6Oi4x0NDQ0NDQ0NDQ0NDQq4l0cXBtgaGvpUMjIx4UFi4uKR2a
+        0NDQ0NDQ0NDQ0NBedHFwcaCzurpMTEwjIxoYFCQpHFbQ0NDQ0NDQ0NDQ0IpxcGuouru7wkxMTCNdfRpI
+        DCAdBtDQ0NDQ0NDQ0NDQdHBtaa+5t8fMTExMI4XGyKwPHBhy0NDQ0NDQ0NDQ0NBwbms9pLq2wc1MTEyD
+        vcnPnw8YFNDQ0NDQ0NDQ0NDQ0E5mZiuCsLK/w0xMTCOPysWqDxcshDQN0NDQ0NDQ0NDQYmZbMleluLy+
+        TExMIzW0GhgPAwtRkRPQ0NDQ0NDQ0NDQJVtMTExMTExMTExMTExMTEwCVJU20NDQ0NDQ0NDQ0NDQdkxM
+        TExMTExMTExMTExMTFiVNtDQ0NDQ0NDQ0NDQ0NDQTExMTExMTExMTExMTExMlTPQ0NDQ0NDQ0NDQ0NDQ
+        0NDQlBKMwMtMTEw3IxwVY5VS0NDQ0NDQ0NDQ0NDQ0NDQ0NDQAY2xykxMTCAeFWOVPtDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0NCUEmTETExMHydjlS/Q0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NABOJlMTEyTc5UmlNDQ0NDQ0NDQ
+        0NDQ0NDQ0NDQ0NDQ0NARYExMTHOSrSjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0Ak4TExMmJ43AdDQ0NDQ
+        0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0AhAe45CdRho0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQB36OgCseCtDQ
+        0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0Bt+i2qpf3kF0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAbfocEObXO
+        TSHQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQPJt4otAQl5AZptDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0DCuo5zQ
+        0NAOIgbQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQRpKd0NDQ0EkUIdDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0ACm0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0ND////////////gB///gAH//gAA//wAAH/4AAA/+AAAP/gA
+        AD/4AAA/+AAAf/gAAA/4AAAP/AAAH/4AAD//AAB//4AA///AAf//wAP//+AD///wB///8Af///gH///4
+        D///8A///+AP///CD///hx///48f////n////////////ygAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA5HQUAPSEHADwhCAAwIRUARiUFAEQmCgBMKgcASykMAE4tDwBJLxEAUDATAE8w
+        FAA6MR8AWDQTAE04HgAAAP8AXjwbAFQ7JABhPx0AHThTABw8TAAlPE4AN0FFACg+VQBuRyIAOEdAAHJK
+        JABYRzgAaE0lACBCZAB0TCYAJURgAGNLNgArRWAAblAlACxGXwBzTi0Ae1IqADRPTgBaTkUAIklpAC5K
+        agB1VDIAfVYqAIBZLQB6WiwAUllLADxTewBmW1IAJVt0AD5bewCMaDYAP118AHtmUwBJaGYAlm86AHNr
+        YQA1bngAl3ZEAHBubgBldF4AiHViADF2hgB1dnEAZWmlAB1znQCWfWUAqYRIAD90ogBoepAAr4lLALSM
+        TACVhnQAn4huAHeJfAAohKkAW4uGAIaOdwB7jY8AFo7HAHqRpwBfmZ4AEpXVACqbyABPo7UAR6a3ACio
+        0QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAV1dXV1dXV1dXV1dXV1dXV1dXV1dXSSosKxJCV1dXV1dXV1dIJRoaEAsK
+        DQhXV1dXV1dXJR43RyIGBAEHIFdXV1dXNRozTVQtD0E+ABFXV1dXVz0YHEpTPA9PVgAnQFdXV1dXJAlD
+        Dw8PDw8DIS9XV1dXV1cbLlFMDzkCEzRXV1dXV1dXVxRSVQ8FFzJXV1dXV1dXV1c4NkYxHylXV1dXV1dX
+        V1dXVw46KChOV1dXV1dXV1dXV1c7IxYMV1dXV1dXV1dXV1dXHRVLGVdXV1dXV1dXV1dXREVXJj9XV1dX
+        V1dXV1dXV1BXVzBXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV///AAD4HwAA4A8AAOAHAADABwAAwAMAAOAD
+        AADwBwAA+A8AAPgfAAD8HwAA/D8AAPw/AAD5PwAA+38AAP//AAA=
+</value>
+  </data>
+</root>
